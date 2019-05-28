@@ -69,3 +69,10 @@ body{
   display: table-cell;
   background: white;
   }
+  .score{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    z-index: 100;
+    color:white
+}
