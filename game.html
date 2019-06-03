@@ -1,9 +1,20 @@
 
 <!DOCTYPE html>
 <html>
+   <header>SLIDING PUZZLE</header>
     <head>
         <link rel="stylesheet" type="text/css" href="game.css">
       </head>
+      <section><div class="hd" color="white">INSTRUCTIONS:</div>
+         <div id="bd">
+            <ol>
+               <li>Initially given the original picture.</li>
+               <li>Click on the button "new game" to play.</li>
+               <li>Need to order the images by clicking on image tiles.</li>
+               <li>Game completes when image tiles are properly ordered.</li>
+            </ol>
+         </div>
+      </section>
   <center>
       <script type="text/javascript" src="game.js"></script>
   <body><div id="table" style="display: table;">
@@ -23,8 +34,9 @@
      <div id="cell33" class="tile9" onClick="clickTile(3,3);"></div>
   </div>
 </div>
-<div id="score" style="display:text">0</div>
- <button onClick="shuffle()">New Game</button>
+<div id="moves"></div>
+ <button onClick="shuffle()" style="float:right;" >New Game</button>
+ 
 </body>
 </center>
 </html>
