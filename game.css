@@ -1,78 +1,114 @@
-
+header{
+  color: darkolivegreen;
+  text-align: center;
+  font-size: 90px;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: purple;
+  font-family: 'Times New Roman', Times, serif;
+}
+section{
+  /*border-radius: 15px 50px 30px;*/
+  background: black;
+  color:solid white;
+  padding: 20px; 
+  width: 300px;
+  height: 500px; 
+  float: left;
+}
 body{ 
   background-image: url("img.png");
   background-repeat: no-repeat;
   background-size: 1500px 800px;
   }
+  #table{
+    float:left 20 px;
+    margin-top:100px;
+  }
+  .hd{
+    height:120 px;
+    width:75 px;
+    font-size: 150%;
+    color: crimson;
+    font-family: cursive;
+  }
+  #bd{
+    font-size: 170%;
+    color:white;
+    font-family: cursive;
+  }
   .tile1 {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: left top;
-  }
+  border: 1px solid white;  }
   .tile2 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: center top;
-  }
+  border: 1px solid white;  }
   .tile3 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: right top;
-  }
+  border: 1px solid white;  }
   .tile4 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: left center;
-  }
+  border: 1px solid white;  }
   .tile5 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: center center;
-  }
+  border: 1px solid white;  }
   .tile6 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: right center;
+  border: 1px solid white;
   }
   .tile7 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: left bottom;
-  }
+  border: 1px solid white;  }
   .tile8 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
-  background: url(flower.png);
+  background: url(image.png);
   background-position: center bottom;
-  }
+  border: 1px solid white;  }
   .tile9 {
-  width: 120px;
-  height: 120px;
+    width: 60px;
+    height: 93px;
   display: table-cell;
   background: white;
-  }
-  .score{
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    z-index: 100;
-    color:white
+  border: 1px solid white;  }
+  #moves{
+    margin-right:100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50 px;
+    float:right;
+    width:100px;
+    height:100px;
+    color:white;
 }
