@@ -16,10 +16,16 @@ section{
   height: 500px; 
   float: left;
 }
+#time{
+  height:120 px;
+  width:200 px;
+  float:top-right;
+  color:white;
+}
 body{ 
   background-image: url("img.png");
   background-repeat: no-repeat;
-  background-size: 1500px 800px;
+  background-size: 1300px 630px;
   }
   #table{
     float:left 20 px;
@@ -42,7 +48,7 @@ body{
   height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: left top;
   border: 1px solid white;  }
   .tile2 {
@@ -50,7 +56,7 @@ body{
     height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: center top;
   border: 1px solid white;  }
   .tile3 {
@@ -58,28 +64,28 @@ body{
     height: 93px;
   display: table-cell;
   padding-top: 120 px;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: right top;
   border: 1px solid white;  }
   .tile4 {
     width: 60px;
     height: 93px;
   display: table-cell;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: left center;
   border: 1px solid white;  }
   .tile5 {
     width: 60px;
     height: 93px;
   display: table-cell;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: center center;
   border: 1px solid white;  }
   .tile6 {
     width: 60px;
     height: 93px;
   display: table-cell;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: right center;
   border: 1px solid white;
   }
@@ -87,14 +93,14 @@ body{
     width: 60px;
     height: 93px;
   display: table-cell;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: left bottom;
   border: 1px solid white;  }
   .tile8 {
     width: 60px;
     height: 93px;
   display: table-cell;
-  background: url(image.png);
+  background: url(flower.png);
   background-position: center bottom;
   border: 1px solid white;  }
   .tile9 {
