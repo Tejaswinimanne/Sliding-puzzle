@@ -3,6 +3,7 @@ function swap(cell1,cell2) {
     document.getElementById(cell1).className = document.getElementById(cell2).className;
     document.getElementById(cell2).className = temp;
 }
+
 var score=0;
 function shuffle() {
   score=0;
@@ -40,7 +41,7 @@ function clickTile(row,column) {
        if(column<3) {
          if(document.getElementById("cell"+row+(column+1)).className=="tile9") {
           document.getElementById('moves').innerHTML = "Moves : " + ++score;
-          if(score>=15){
+          if(score>=150){
             alert("Lots of moves"+"\n"+"Better luck next time.");
           }
           gameCheck();
@@ -52,7 +53,7 @@ function clickTile(row,column) {
        if (column>1) {
          if ( document.getElementById("cell"+row+(column-1)).className=="tile9") {
           document.getElementById('moves').innerHTML = "Moves : "+ ++score;
-          if(score>=15){
+          if(score>=150){
             alert("Lots of moves"+"\n"+"Better luck next time.");
             shuffle();
           }
@@ -65,7 +66,7 @@ function clickTile(row,column) {
        if (row>1) {
          if ( document.getElementById("cell"+(row-1)+column).className=="tile9") {
           document.getElementById('moves').innerHTML = "Moves : "+ ++score;
-          if(score>=15){
+          if(score>=150){
             alert("Lots of moves"+"\n"+"Better luck next time.");
             shuffle();
           }
@@ -78,7 +79,7 @@ function clickTile(row,column) {
        if (row<3) {
          if ( document.getElementById("cell"+(row+1)+column).className=="tile9") {
           document.getElementById('moves').innerHTML = "Moves : " + ++score;
-          if(score>=15){
+          if(score>=150){
             alert("Lots of moves"+"\n"+"Better luck next time.");
             shuffle();
           }
